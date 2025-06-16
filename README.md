@@ -134,7 +134,6 @@ HandwrittenDigitRecognizer/
 ├── train-labels-idx1-ubyte        # Training labels  
 ├── t10k-images-idx3-ubyte         # Test images
 ├── t10k-labels-idx1-ubyte         # Test labels
-└── requirements.txt               # Dependencies (optional)
 ```
 
 ## 📚 References
