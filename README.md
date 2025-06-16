@@ -4,7 +4,6 @@ A neural network-based handwritten digit recognition system built with TensorFlo
 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-v2.12+-orange.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## 🎯 Project Overview
 
@@ -66,37 +65,6 @@ The project uses the **MNIST Dataset** with the following files:
 2. **Reshaping**: Images flattened from 28×28 to 784-dimensional vectors
 3. **Type Conversion**: Images converted to float32 for efficient computation
 
-## 🚀 Getting Started
-
-### Prerequisites
-```bash
-pip install tensorflow numpy pandas pillow
-```
-
-### Installation
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/handwritten-digit-recognizer.git
-cd handwritten-digit-recognizer
-```
-
-2. Download the MNIST dataset files (included in repository)
-
-3. Run the Jupyter notebook:
-```bash
-jupyter notebook model.ipynb
-```
-
-### Quick Start
-```python
-# Load and train the model
-python model.py
-
-# For custom image prediction
-from PIL import Image
-predicted_class, confidence = predict_from_png('your_image.png')
-```
-
 ## 📝 Usage
 
 ### Training the Model
@@ -157,12 +125,6 @@ def predict_from_png(file_path):
 - ✅ **Robust Performance**: Consistent across training and validation
 - ✅ **Practical Application**: Works with real-world PNG images
 
-### Potential Improvements
-- **Convolutional Layers**: Could improve accuracy to 99%+
-- **Data Augmentation**: Rotation, scaling for better generalization
-- **Dropout Layers**: Additional regularization
-- **Batch Normalization**: Faster and more stable training
-
 ## 🛠️ File Structure
 ```
 HandwrittenDigitRecognizer/
@@ -175,36 +137,10 @@ HandwrittenDigitRecognizer/
 └── requirements.txt               # Dependencies (optional)
 ```
 
-## 🔮 Future Enhancements
-
-1. **CNN Implementation**: Upgrade to Convolutional Neural Network
-2. **Web Interface**: Flask/Django web app for easy image upload
-3. **Mobile App**: Deploy model to mobile devices
-4. **Real-time Drawing**: Canvas-based drawing interface
-5. **Model Optimization**: TensorFlow Lite for edge deployment
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
 ## 📚 References
 
 - [MNIST Database](http://yann.lecun.com/exdb/mnist/)
 - [TensorFlow Documentation](https://www.tensorflow.org/)
 - [Keras Sequential Model Guide](https://keras.io/guides/sequential_model/)
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-
 ---
-
-⭐ **Star this repository if you found it helpful!**
-
-*Built with ❤️ using TensorFlow and Python*
